@@ -1,20 +1,15 @@
-/ Button trigger modal
-%button.btn.btn-primary.btn-lg{"data-target" => "#myModal", "data-toggle" => "modal"}
-  Click to Contact Us!
-/ Modal
-#myModal.modal.fade{"aria-hidden" => "true", "aria-labelledby" => "myModalLabel", role: "dialog", tabindex: "-1"}
-  .modal-dialog
-    .modal-content
-      .modal-header
-        %button.close{"aria-hidden" => "true", "data-dismiss" => "modal", type: "button"} ×
-        %h4#myModalLabel.modal-title Contact Us!
-      .modal-body
-        .emailwrapper
-          %p Just give us your email address and we'll be in touch!
-          %textarea.form-control{placeholder: "Valuable comments here...", type: "form", id: "textbox"}
-          %br
-          .col-sm-10
-          %input#inputEmail3.form-control{placeholder: "Email address...", type: "email"}/
-      .modal-footer
-        %button.btn.btn-default{"data-dismiss" => "modal", type: "button"} Cancel
-        %button.btn.btn-primary{type: "button"} Submit
+
+.col-md-1
+.col-md-6.aboutpage
+  .roundedimage
+    =image_tag "profilepic.jpg", :alt=>"David and Biscuit", :height=>"200px", :width=>"200px"
+
+
+  %h2 Team Mapper
+  %p Hi, we're Team Mapper.  We hope you enjoy using our free mapping app.
+
+  %p Mapper is run by the Dynamic Duo of coding: David and Biscuit (pictured).  Mapper hopes to make your mapping easy, simple, and fun.  Feel free to contact us with your feedback.  
+
+  Happy mapping!  &nbsp; &nbsp; 
+  %span.glyphicon.glyphicon-road
+  %br
