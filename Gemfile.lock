@@ -80,6 +80,7 @@ GEM
     multi_json (1.10.0)
     optionable (0.2.0)
     origin (2.1.1)
+    pg (0.17.1-x86-mingw32)
     polyglot (0.3.4)
     rack (1.5.2)
     rack-test (0.6.2)
@@ -151,6 +152,7 @@ DEPENDENCIES
   jquery-rails
   json_pure
   mongoid (~> 4.0.0.beta1)!
+  pg
   rails (= 4.1.0)
   rails_12factor
   sass-rails (~> 4.0.3)
