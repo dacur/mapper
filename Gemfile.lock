@@ -78,8 +78,12 @@ GEM
       connection_pool (~> 2.0)
       optionable (~> 0.2.0)
     multi_json (1.10.0)
+<<<<<<< HEAD
     optionable (0.2.0)
     origin (2.1.1)
+=======
+    pg (0.17.1-x86-mingw32)
+>>>>>>> origin/old-state
     polyglot (0.3.4)
     rack (1.5.2)
     rack-test (0.6.2)
@@ -151,12 +155,19 @@ DEPENDENCIES
   haml-rails
   jbuilder (~> 2.0)
   jquery-rails
+<<<<<<< HEAD
   json_pure
   mongoid (~> 4.0.0.beta1)!
+=======
+  pg
+>>>>>>> origin/old-state
   rails (= 4.1.0)
   rails_12factor
   sass-rails (~> 4.0.3)
   sdoc (~> 0.4.0)
+<<<<<<< HEAD
   turbolinks
+=======
+>>>>>>> origin/old-state
   tzinfo-data
   uglifier (>= 1.3.0)
